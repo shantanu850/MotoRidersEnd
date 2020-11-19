@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_sms"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        android:title="Live" />
+    <item
+        android:id="@+id/navigation_notifications1"
+        android:icon="@drawable/ic_baseline_flash_on_24"
+        android:title="Quick" />
+    <item
+        android:id="@+id/navigation_notifications2"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Track" />
+    <item
+        android:id="@+id/navigation_notifications3"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile" />
+
+</menu>

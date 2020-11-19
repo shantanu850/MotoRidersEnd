@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "812398476278",
+    "firebase_url": "https://moto-riders-1605780851395.firebaseio.com",
+    "project_id": "moto-riders-1605780851395",
+    "storage_bucket": "moto-riders-1605780851395.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812398476278:android:739cda2326449c906b65d7",
+        "android_client_info": {
+          "package_name": "com.gcf.motoriders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812398476278-9gk4k1umbtpvp93uflfhalteh87drm84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gcf.motoriders",
+            "certificate_hash": "a0c7e3112f0b87d28d7b0b432f509d020987464d"
+          }
+        },
+        {
+          "client_id": "812398476278-jb7jflq8i3b3p1ee4icsq9l57f5mkpl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwFLYocc_3-r5aVHI94CQ38LUBOK4EXt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812398476278-jb7jflq8i3b3p1ee4icsq9l57f5mkpl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
