@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:contentDescription="m"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bbg" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="@string/bike_service"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/bodonimt"
+                            android:textSize="22sp"
+                            android:textStyle="bold|italic" />
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:scrollbars="none"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_margin="10dp">
+                                    <ImageView
+                                        android:id="@+id/imageViewbk"
+                                        android:layout_width="100dp"
+                                        android:gravity="center_horizontal"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/premium_bike" />
+                                    <TextView
+                                        android:id="@+id/textViewbk"
+                                        android:layout_width="match_parent"
+                                        android:gravity="center_horizontal"
+                                        android:layout_height="wrap_content"
+                                        android:text="@string/premium_bike_service" />
+                                </LinearLayout>
+                                <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="10dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageViewbk1"
+                                    android:layout_width="100dp"
+                                    android:gravity="center_horizontal"
+                                    android:layout_height="100dp"
+                                    android:src="@drawable/repair_job" />
+
+                                <TextView
+                                    android:id="@+id/textViewbk1"
+                                    android:gravity="center_horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Repair Job" />
+                            </LinearLayout>
+                                <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_margin="10dp"
+                                >
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:gravity="center_horizontal"
+                                    android:src="@drawable/general_service" />
+
+                                <TextView
+                                    android:id="@+id/textView2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="General Service"
+                                    android:gravity="center_horizontal" />
+                            </LinearLayout>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Car Service"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/bodonimt"
+                            android:textSize="22dp"
+                            android:textStyle="bold|italic" />
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:scrollbars="none"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_margin="10dp">
+
+                                    <ImageView
+                                        android:id="@+id/imageViewcr"
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/car_dent_repair_and_painting_144" />
+
+                                    <TextView
+                                        android:id="@+id/textViewcr"
+                                        android:layout_gravity="center"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Car Painting" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="10dp"
+                                    android:layout_gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageViewcr1"
+                                        android:layout_width="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/car_detailing_144" />
+
+                                    <TextView
+                                        android:id="@+id/textViewcr1"
+                                        android:layout_width="match_parent"
+                                        android:layout_gravity="center"
+                                        android:layout_height="wrap_content"
+                                        android:text="Car Detailing" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:layout_margin="10dp"
+                                    >
+                                    <ImageView
+                                        android:id="@+id/imageViewcr3"
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:src="@drawable/complete_car_spa_144" />
+
+                                    <TextView
+                                        android:id="@+id/textViewcr3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Car Spa" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_marginBottom="76dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Electronic Service"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/bodonimt"
+                            android:textSize="22dp"
+                            android:textStyle="bold|italic" />
+
+                        <GridView
+                            android:id="@+id/simpleGridViewElec"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:numColumns="4" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">Moto Riders</string>
     <string name="web_client_id">812398476278-jb7jflq8i3b3p1ee4icsq9l57f5mkpl3.apps.googleusercontent.com</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="bike_service">Bike Service</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="complete_register">Complete Register</string>
+    <string name="enter_otp">GENERATE OTP</string>
+    <string name="generate_otp">GENERATE OTP</string>
+    <string name="verify_sign_in">VERIFY SIGN IN</string>
+    <string name="continue_with_phone">Continue With Phone</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="subtitle_or_discription_text_view">Subtitle or Discription text view</string>
+    <string name="title_content">Title Content</string>
+    <string name="premium_bike_service">Premium Bike Service</string>
+    <string name="resend_otp">Resend OTP</string>
 </resources>

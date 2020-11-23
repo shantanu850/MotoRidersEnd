@@ -16,6 +16,19 @@
 
     </com.google.android.gms.common.SignInButton>
 
+    <Button
+        android:id="@+id/phoneAuthBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sign_in_button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/continue_with_phone"
+        android:layout_marginLeft="20dp"
+        android:background="@color/yellow"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="14dp" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
